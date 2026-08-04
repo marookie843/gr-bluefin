@@ -47,3 +47,8 @@ modules:
   - type: script
     scripts:
       - netbird.sh
+
+  - type: rpm-ostree
+    install:
+      - netbird
+      - netbird-ui
