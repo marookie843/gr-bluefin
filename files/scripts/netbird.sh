@@ -10,3 +10,4 @@ gpgcheck=1
 gpgkey=https://pkgs.netbird.io/yum/repodata/repomd.xml.key
 repo_gpgcheck=1
 EOF
+mkdir -p /var/log/netbird
